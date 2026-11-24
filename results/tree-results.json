@@ -1,0 +1,96 @@
+{
+  "metrics": [
+    {
+      "model": "Motion families",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.26898799668874174,
+      "family_accuracy": 0.33169495033112584,
+      "log_loss": 1.9614579677581787,
+      "brier": 0.8267361742877127,
+      "ece": 0.03034881342029729
+    },
+    {
+      "model": "Motion families",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.39649177435258703,
+      "family_accuracy": 0.4788001453111215,
+      "log_loss": 1.607580304145813,
+      "brier": 0.7252501907846365,
+      "ece": 0.01977020511292997
+    },
+    {
+      "model": "Motion families",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.561817065684469,
+      "family_accuracy": 0.6424186617556783,
+      "log_loss": 1.1843481063842773,
+      "brier": 0.5609394727062904,
+      "ece": 0.011130077667657827
+    },
+    {
+      "model": "Motion families",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7600877727660612,
+      "family_accuracy": 0.820919175911252,
+      "log_loss": 0.6880530118942261,
+      "brier": 0.3375352469498553,
+      "ece": 0.06257526104215966
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2625206953642384,
+      "family_accuracy": 0.3126552152317881,
+      "log_loss": 1.9876924753189087,
+      "brier": 0.8330226778890197,
+      "ece": 0.05322423509772349
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.38554154341169755,
+      "family_accuracy": 0.4661373190098085,
+      "log_loss": 1.6371865272521973,
+      "brier": 0.7335195731939073,
+      "ece": 0.035797707876076966
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5488029465930019,
+      "family_accuracy": 0.6304481276856968,
+      "log_loss": 1.2204750776290894,
+      "brier": 0.5738445847372945,
+      "ece": 0.009154685878951227
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7478971108131172,
+      "family_accuracy": 0.8109228331098378,
+      "log_loss": 0.7386773228645325,
+      "brier": 0.3585405422602699,
+      "ece": 0.07090254741246621
+    }
+  ],
+  "selection": [
+    {
+      "model": "Motion families",
+      "selection_log_loss": 1.4163326025009155,
+      "temperature": 1.0
+    },
+    {
+      "model": "Historical tendencies",
+      "selection_log_loss": 1.4195300340652466,
+      "temperature": 1.0
+    }
+  ]
+}

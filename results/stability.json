@@ -1,0 +1,32 @@
+{
+  "model_sensitivity": [
+    {
+      "model": "Motion families",
+      "player_rank_correlation": 0.7916623472787854,
+      "players": 74
+    },
+    {
+      "model": "Sequence GRU",
+      "player_rank_correlation": 0.9636579044798221,
+      "players": 74
+    },
+    {
+      "model": "Joint route and path",
+      "player_rank_correlation": 0.9678341355053682,
+      "players": 74
+    },
+    {
+      "model": "Temporal convolution",
+      "player_rank_correlation": 0.9816364309514992,
+      "players": 74
+    }
+  ],
+  "duration_sensitivity": {
+    "n_players": 73,
+    "raw_score_rank_correlation_same_routes": 0.962606442058497
+  },
+  "notes": [
+    "Model sensitivity subtracts the same validation-fitted context expectation from each candidate; high rank agreement is not proof of defender deception.",
+    "Window sensitivity compares unadjusted scores on the same routes with at least two seconds observed; this changes the eligible population."
+  ]
+}

@@ -1,0 +1,1 @@
+NFL Big Data Bowl artwork: [AWS — Building the Future of Football Analytics](https://aws.amazon.com/sports/nfl-big-data-bowl/). NFL and AWS marks belong to their respective owners. The artwork identifies the competition; this independent research project is not an official NFL or AWS product.

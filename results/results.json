@@ -1,0 +1,846 @@
+{
+  "metrics": [
+    {
+      "model": "Temporal convolution",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2669184602649007,
+      "family_accuracy": 0.3390418046357616,
+      "log_loss": 1.9608322381973267,
+      "brier": 0.8268684075324751,
+      "ece": 0.010948702519518991
+    },
+    {
+      "model": "Temporal convolution",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.399916965073434,
+      "family_accuracy": 0.48751881260055013,
+      "log_loss": 1.5742347240447998,
+      "brier": 0.7153044607421145,
+      "ece": 0.014435861351530976
+    },
+    {
+      "model": "Temporal convolution",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5831798649478207,
+      "family_accuracy": 0.6659914057704113,
+      "log_loss": 1.1113637685775757,
+      "brier": 0.5350594873848105,
+      "ece": 0.01385137676973149
+    },
+    {
+      "model": "Temporal convolution",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7710593685237108,
+      "family_accuracy": 0.8353041570157259,
+      "log_loss": 0.6456494927406311,
+      "brier": 0.32468171551320235,
+      "ece": 0.032294048146040095
+    },
+    {
+      "model": "Motion families",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.26898799668874174,
+      "family_accuracy": 0.33169495033112584,
+      "log_loss": 1.9614579677581787,
+      "brier": 0.8267361742877127,
+      "ece": 0.03034881342029729
+    },
+    {
+      "model": "Motion families",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.39649177435258703,
+      "family_accuracy": 0.4788001453111215,
+      "log_loss": 1.607580304145813,
+      "brier": 0.7252501907846365,
+      "ece": 0.01977020511292997
+    },
+    {
+      "model": "Motion families",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.561817065684469,
+      "family_accuracy": 0.6424186617556783,
+      "log_loss": 1.1843481063842773,
+      "brier": 0.5609394727062904,
+      "ece": 0.011130077667657827
+    },
+    {
+      "model": "Motion families",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7600877727660612,
+      "family_accuracy": 0.820919175911252,
+      "log_loss": 0.6880530118942261,
+      "brier": 0.3375352469498553,
+      "ece": 0.06257526104215966
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2625206953642384,
+      "family_accuracy": 0.3126552152317881,
+      "log_loss": 1.9876924753189087,
+      "brier": 0.8330226778890197,
+      "ece": 0.05322423509772349
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.38554154341169755,
+      "family_accuracy": 0.4661373190098085,
+      "log_loss": 1.6371865272521973,
+      "brier": 0.7335195731939073,
+      "ece": 0.035797707876076966
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5488029465930019,
+      "family_accuracy": 0.6304481276856968,
+      "log_loss": 1.2204750776290894,
+      "brier": 0.5738445847372945,
+      "ece": 0.009154685878951227
+    },
+    {
+      "model": "Historical tendencies",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7478971108131172,
+      "family_accuracy": 0.8109228331098378,
+      "log_loss": 0.7386773228645325,
+      "brier": 0.3585405422602699,
+      "ece": 0.07090254741246621
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2642798013245033,
+      "family_accuracy": 0.33153973509933776,
+      "log_loss": 1.977281928062439,
+      "brier": 0.8305146186971121,
+      "ece": 0.013758305496449845
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.4091546006539,
+      "family_accuracy": 0.49462867818776274,
+      "log_loss": 1.5690152645111084,
+      "brier": 0.7124464693443794,
+      "ece": 0.005915355633499022
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5820748925721302,
+      "family_accuracy": 0.6658072437077962,
+      "log_loss": 1.112736701965332,
+      "brier": 0.5369237649976206,
+      "ece": 0.017735094508010966
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7675240765573571,
+      "family_accuracy": 0.8353041570157259,
+      "log_loss": 0.6413047909736633,
+      "brier": 0.3241527475529562,
+      "ece": 0.019468942967970228
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2650558774834437,
+      "family_accuracy": 0.33391970198675497,
+      "log_loss": 1.9741294384002686,
+      "brier": 0.8297079422602258,
+      "ece": 0.014261889386311519
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.40863563236286266,
+      "family_accuracy": 0.4926047018527168,
+      "log_loss": 1.5644330978393555,
+      "brier": 0.7115327588749899,
+      "ece": 0.012080345922058611
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5860036832412523,
+      "family_accuracy": 0.6659300184162062,
+      "log_loss": 1.1045167446136475,
+      "brier": 0.5335731242875159,
+      "ece": 0.014482093059519011
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7694745824698281,
+      "family_accuracy": 0.8356698768743143,
+      "log_loss": 0.6412699818611145,
+      "brier": 0.3236245549834374,
+      "ece": 0.02332931684129606
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2729718543046358,
+      "family_accuracy": 0.3376448675496689,
+      "log_loss": 1.956893801689148,
+      "brier": 0.8263690941697541,
+      "ece": 0.023140157001641962
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.41211271991281334,
+      "family_accuracy": 0.4948881623332814,
+      "log_loss": 1.5562251806259155,
+      "brier": 0.7090951399615102,
+      "ece": 0.029686640643561236
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5950276243093923,
+      "family_accuracy": 0.6718845917740945,
+      "log_loss": 1.0808672904968262,
+      "brier": 0.523530519404049,
+      "ece": 0.019855724859632835
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7852005363891259,
+      "family_accuracy": 0.8476167255881994,
+      "log_loss": 0.5966595411300659,
+      "brier": 0.30397466333264966,
+      "ece": 0.015398095856784805
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2729718543046358,
+      "family_accuracy": 0.3376448675496689,
+      "log_loss": 1.956893801689148,
+      "brier": 0.8263690941697541,
+      "ece": 0.023140157001641962
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.41211271991281334,
+      "family_accuracy": 0.4948881623332814,
+      "log_loss": 1.5562251806259155,
+      "brier": 0.7090951399615102,
+      "ece": 0.029686640643561236
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5950276243093923,
+      "family_accuracy": 0.6718845917740945,
+      "log_loss": 1.0808672904968262,
+      "brier": 0.523530519404049,
+      "ece": 0.019855724859632835
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7852005363891259,
+      "family_accuracy": 0.8476167255881994,
+      "log_loss": 0.5966595411300659,
+      "brier": 0.30397466333264966,
+      "ece": 0.015398095856784805
+    }
+  ],
+  "selection_scores": {
+    "Temporal convolution": 1.3703311681747437,
+    "Motion families": 1.4163326025009155,
+    "Historical tendencies": 1.4195300340652466,
+    "Sequence GRU": 1.3687127828598022,
+    "Joint route and path": 1.3637945652008057
+  },
+  "chosen": {
+    "Movement recognition": {
+      "weights": {
+        "Joint route and path": 0.5,
+        "Temporal convolution": 0.5
+      },
+      "temperature": 0.85,
+      "selection_log_loss": 1.3446333408355713
+    },
+    "History-aware forecast": {
+      "weights": {
+        "Joint route and path": 0.5,
+        "Temporal convolution": 0.5
+      },
+      "temperature": 0.85,
+      "selection_log_loss": 1.3446333408355713
+    }
+  },
+  "subgroups": [
+    {
+      "model": "Movement recognition",
+      "observation": 0.0,
+      "n": 6012,
+      "accuracy": 0.26214238190286093,
+      "family_accuracy": 0.33765801729873585,
+      "log_loss": 1.980263113975525,
+      "brier": 0.8324497647708986,
+      "ece": 0.036872041680003034,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 1.0,
+      "n": 5994,
+      "accuracy": 0.4075742409075742,
+      "family_accuracy": 0.4931598264931598,
+      "log_loss": 1.5711709260940552,
+      "brier": 0.7157246382072113,
+      "ece": 0.03430396193886424,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 2.0,
+      "n": 5148,
+      "accuracy": 0.5858585858585859,
+      "family_accuracy": 0.6651126651126651,
+      "log_loss": 1.0823357105255127,
+      "brier": 0.5278834061042702,
+      "ece": 0.023667032120527908,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 3.0,
+      "n": 2620,
+      "accuracy": 0.7931297709923664,
+      "family_accuracy": 0.850381679389313,
+      "log_loss": 0.5818743109703064,
+      "brier": 0.29824185857394503,
+      "ece": 0.022062114199609236,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 0.0,
+      "n": 13316,
+      "accuracy": 0.2778612195854611,
+      "family_accuracy": 0.3376389306097927,
+      "log_loss": 1.9463427066802979,
+      "brier": 0.8236237508493814,
+      "ece": 0.017608252821445968,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 1.0,
+      "n": 13275,
+      "accuracy": 0.4141619585687382,
+      "family_accuracy": 0.49566854990583803,
+      "log_loss": 1.5494768619537354,
+      "brier": 0.7061017529570107,
+      "ece": 0.02760179330736902,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 2.0,
+      "n": 11142,
+      "accuracy": 0.5992640459522527,
+      "family_accuracy": 0.6750134625740442,
+      "log_loss": 1.0801887512207031,
+      "brier": 0.5215193310417496,
+      "ece": 0.018368636632581908,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 3.0,
+      "n": 5583,
+      "accuracy": 0.7814794913129142,
+      "family_accuracy": 0.84631918323482,
+      "log_loss": 0.6035979986190796,
+      "brier": 0.3066649639716979,
+      "ece": 0.015574103916244404,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 0.0,
+      "n": 15100,
+      "accuracy": 0.2691390728476821,
+      "family_accuracy": 0.3381456953642384,
+      "log_loss": 1.956618070602417,
+      "brier": 0.8276788073743879,
+      "ece": 0.018539819193399493,
+      "subgroup": "WR"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 1.0,
+      "n": 15045,
+      "accuracy": 0.40365569956796277,
+      "family_accuracy": 0.4944499833831838,
+      "log_loss": 1.5570088624954224,
+      "brier": 0.7114713011042334,
+      "ece": 0.025273056206967827,
+      "subgroup": "WR"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 2.0,
+      "n": 12671,
+      "accuracy": 0.5760397758661511,
+      "family_accuracy": 0.6595375266356247,
+      "log_loss": 1.1107996702194214,
+      "brier": 0.5400384514501387,
+      "ece": 0.02331500635387189,
+      "subgroup": "WR"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 3.0,
+      "n": 6342,
+      "accuracy": 0.7790917691579943,
+      "family_accuracy": 0.8443708609271523,
+      "log_loss": 0.6036190986633301,
+      "brier": 0.3103504525133801,
+      "ece": 0.015591668583586607,
+      "subgroup": "WR"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 0.0,
+      "n": 4228,
+      "accuracy": 0.28666035950804164,
+      "family_accuracy": 0.3358561967833491,
+      "log_loss": 1.9578784704208374,
+      "brier": 0.8216915470103475,
+      "ece": 0.03956995430766353,
+      "subgroup": "TE"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 1.0,
+      "n": 4224,
+      "accuracy": 0.4422348484848485,
+      "family_accuracy": 0.49644886363636365,
+      "log_loss": 1.5534335374832153,
+      "brier": 0.7006317535050071,
+      "ece": 0.04557044802685128,
+      "subgroup": "TE"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 2.0,
+      "n": 3619,
+      "accuracy": 0.6615087040618955,
+      "family_accuracy": 0.7151146725614811,
+      "log_loss": 0.9760663509368896,
+      "brier": 0.4657322306624065,
+      "ece": 0.019530469572784565,
+      "subgroup": "TE"
+    },
+    {
+      "model": "Movement recognition",
+      "observation": 3.0,
+      "n": 1861,
+      "accuracy": 0.8060182697474476,
+      "family_accuracy": 0.8586781300376142,
+      "log_loss": 0.5729425549507141,
+      "brier": 0.28224696049321274,
+      "ece": 0.023334568463494115,
+      "subgroup": "TE"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 0.0,
+      "n": 6012,
+      "accuracy": 0.26214238190286093,
+      "family_accuracy": 0.33765801729873585,
+      "log_loss": 1.980263113975525,
+      "brier": 0.8324497647708986,
+      "ece": 0.036872041680003034,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 1.0,
+      "n": 5994,
+      "accuracy": 0.4075742409075742,
+      "family_accuracy": 0.4931598264931598,
+      "log_loss": 1.5711709260940552,
+      "brier": 0.7157246382072113,
+      "ece": 0.03430396193886424,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 2.0,
+      "n": 5148,
+      "accuracy": 0.5858585858585859,
+      "family_accuracy": 0.6651126651126651,
+      "log_loss": 1.0823357105255127,
+      "brier": 0.5278834061042702,
+      "ece": 0.023667032120527908,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 3.0,
+      "n": 2620,
+      "accuracy": 0.7931297709923664,
+      "family_accuracy": 0.850381679389313,
+      "log_loss": 0.5818743109703064,
+      "brier": 0.29824185857394503,
+      "ece": 0.022062114199609236,
+      "subgroup": "unseen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 0.0,
+      "n": 13316,
+      "accuracy": 0.2778612195854611,
+      "family_accuracy": 0.3376389306097927,
+      "log_loss": 1.9463427066802979,
+      "brier": 0.8236237508493814,
+      "ece": 0.017608252821445968,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 1.0,
+      "n": 13275,
+      "accuracy": 0.4141619585687382,
+      "family_accuracy": 0.49566854990583803,
+      "log_loss": 1.5494768619537354,
+      "brier": 0.7061017529570107,
+      "ece": 0.02760179330736902,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 2.0,
+      "n": 11142,
+      "accuracy": 0.5992640459522527,
+      "family_accuracy": 0.6750134625740442,
+      "log_loss": 1.0801887512207031,
+      "brier": 0.5215193310417496,
+      "ece": 0.018368636632581908,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 3.0,
+      "n": 5583,
+      "accuracy": 0.7814794913129142,
+      "family_accuracy": 0.84631918323482,
+      "log_loss": 0.6035979986190796,
+      "brier": 0.3066649639716979,
+      "ece": 0.015574103916244404,
+      "subgroup": "seen players"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 0.0,
+      "n": 15100,
+      "accuracy": 0.2691390728476821,
+      "family_accuracy": 0.3381456953642384,
+      "log_loss": 1.956618070602417,
+      "brier": 0.8276788073743879,
+      "ece": 0.018539819193399493,
+      "subgroup": "WR"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 1.0,
+      "n": 15045,
+      "accuracy": 0.40365569956796277,
+      "family_accuracy": 0.4944499833831838,
+      "log_loss": 1.5570088624954224,
+      "brier": 0.7114713011042334,
+      "ece": 0.025273056206967827,
+      "subgroup": "WR"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 2.0,
+      "n": 12671,
+      "accuracy": 0.5760397758661511,
+      "family_accuracy": 0.6595375266356247,
+      "log_loss": 1.1107996702194214,
+      "brier": 0.5400384514501387,
+      "ece": 0.02331500635387189,
+      "subgroup": "WR"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 3.0,
+      "n": 6342,
+      "accuracy": 0.7790917691579943,
+      "family_accuracy": 0.8443708609271523,
+      "log_loss": 0.6036190986633301,
+      "brier": 0.3103504525133801,
+      "ece": 0.015591668583586607,
+      "subgroup": "WR"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 0.0,
+      "n": 4228,
+      "accuracy": 0.28666035950804164,
+      "family_accuracy": 0.3358561967833491,
+      "log_loss": 1.9578784704208374,
+      "brier": 0.8216915470103475,
+      "ece": 0.03956995430766353,
+      "subgroup": "TE"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 1.0,
+      "n": 4224,
+      "accuracy": 0.4422348484848485,
+      "family_accuracy": 0.49644886363636365,
+      "log_loss": 1.5534335374832153,
+      "brier": 0.7006317535050071,
+      "ece": 0.04557044802685128,
+      "subgroup": "TE"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 2.0,
+      "n": 3619,
+      "accuracy": 0.6615087040618955,
+      "family_accuracy": 0.7151146725614811,
+      "log_loss": 0.9760663509368896,
+      "brier": 0.4657322306624065,
+      "ece": 0.019530469572784565,
+      "subgroup": "TE"
+    },
+    {
+      "model": "History-aware forecast",
+      "observation": 3.0,
+      "n": 1861,
+      "accuracy": 0.8060182697474476,
+      "family_accuracy": 0.8586781300376142,
+      "log_loss": 0.5729425549507141,
+      "brier": 0.28224696049321274,
+      "ece": 0.023334568463494115,
+      "subgroup": "TE"
+    }
+  ],
+  "recognition": [
+    {
+      "threshold": 0.5,
+      "target": "exact route",
+      "n": 19328,
+      "recognized_fraction": 0.5542735927152318,
+      "median_onset_among_recognized": 1.4000000000000001,
+      "censored_fraction": 0.4457264072847682
+    },
+    {
+      "threshold": 0.5,
+      "target": "family",
+      "n": 19328,
+      "recognized_fraction": 0.6671668046357616,
+      "median_onset_among_recognized": 1.3,
+      "censored_fraction": 0.3328331953642384
+    },
+    {
+      "threshold": 0.6,
+      "target": "exact route",
+      "n": 19328,
+      "recognized_fraction": 0.4790976821192053,
+      "median_onset_among_recognized": 1.5,
+      "censored_fraction": 0.5209023178807948
+    },
+    {
+      "threshold": 0.6,
+      "target": "family",
+      "n": 19328,
+      "recognized_fraction": 0.5868687913907285,
+      "median_onset_among_recognized": 1.5,
+      "censored_fraction": 0.41313120860927155
+    },
+    {
+      "threshold": 0.7,
+      "target": "exact route",
+      "n": 19328,
+      "recognized_fraction": 0.4017487582781457,
+      "median_onset_among_recognized": 1.6,
+      "censored_fraction": 0.5982512417218543
+    },
+    {
+      "threshold": 0.7,
+      "target": "family",
+      "n": 19328,
+      "recognized_fraction": 0.5070364238410596,
+      "median_onset_among_recognized": 1.6,
+      "censored_fraction": 0.4929635761589404
+    }
+  ],
+  "joint_location": [
+    {
+      "observation": 0.0,
+      "horizon": 1,
+      "n": 19269,
+      "joint_error_yards": 0.9174996614456177,
+      "constant_velocity_error_yards": 1.6663528680801392
+    },
+    {
+      "observation": 0.0,
+      "horizon": 2,
+      "n": 16290,
+      "joint_error_yards": 3.167079210281372,
+      "constant_velocity_error_yards": 6.700600624084473
+    },
+    {
+      "observation": 1.0,
+      "horizon": 1,
+      "n": 16290,
+      "joint_error_yards": 1.0051251649856567,
+      "constant_velocity_error_yards": 1.7189090251922607
+    },
+    {
+      "observation": 1.0,
+      "horizon": 2,
+      "n": 8203,
+      "joint_error_yards": 3.6020467281341553,
+      "constant_velocity_error_yards": 5.208735466003418
+    },
+    {
+      "observation": 2.0,
+      "horizon": 1,
+      "n": 8203,
+      "joint_error_yards": 1.2966374158859253,
+      "constant_velocity_error_yards": 1.547554850578308
+    },
+    {
+      "observation": 2.0,
+      "horizon": 2,
+      "n": 3944,
+      "joint_error_yards": 4.277937412261963,
+      "constant_velocity_error_yards": 5.416070461273193
+    }
+  ],
+  "classes": [
+    "ANGLE",
+    "CORNER",
+    "CROSS",
+    "FLAT",
+    "GO",
+    "HITCH",
+    "IN",
+    "OUT",
+    "POST",
+    "SCREEN",
+    "SLANT",
+    "WHEEL"
+  ],
+  "families": {
+    "Vertical": [
+      "GO",
+      "WHEEL"
+    ],
+    "In-breaking": [
+      "IN",
+      "POST",
+      "SLANT"
+    ],
+    "Out-breaking": [
+      "OUT",
+      "CORNER"
+    ],
+    "Crossing": [
+      "CROSS"
+    ],
+    "Stop": [
+      "HITCH"
+    ],
+    "Underneath": [
+      "ANGLE",
+      "FLAT",
+      "SCREEN"
+    ]
+  },
+  "times": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2000000000000002,
+    1.3,
+    1.4000000000000001,
+    1.5,
+    1.6,
+    1.7000000000000002,
+    1.8,
+    1.9000000000000001,
+    2.0,
+    2.1,
+    2.2,
+    2.3000000000000003,
+    2.4000000000000004,
+    2.5,
+    2.6,
+    2.7,
+    2.8000000000000003,
+    2.9000000000000004,
+    3.0
+  ],
+  "verification": {
+    "probability_normalization": true,
+    "game_separation": true,
+    "selection_uses_2025_labels": false,
+    "history_uses_validation_or_test_labels": false
+  },
+  "notes": [
+    "2025 is a previously examined development holdout, not a new confirmatory test.",
+    "The six families are explicitly defined modeling labels. Exact-route log loss and accuracy remain primary.",
+    "Movement recognition excludes player/team historical priors. The history-aware model is a separate forecasting experiment.",
+    "The sequence models are causal and trained on -1 through +3 seconds; outputs use only the available prefix. Future locations appear only as supervised training targets.",
+    "Recognition requires the recorded true route/family to be the top prediction and exceed a probability threshold for five frames. It is a retrospective model-based measure, not proof of a defender reading the route.",
+    "The onset time is known only after the 0.4-second confirmation window. No recognition before release/end or 3 seconds is censored, not treated as a 3-second delay.",
+    "Examples retain all available cohort players; missing players are not reconstructed.",
+    "No Combine features were used, preserving an independent outcome for later Combine-to-recognition analysis."
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "tests": [
+    {
+      "feature": "combine_height",
+      "outcome": "excess_unpredictability",
+      "n": 74,
+      "rho": 0.16315397411862262,
+      "ci95": [
+        -0.06769713685494065,
+        0.3787378644961491
+      ],
+      "p": 0.17360879706764412,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "combine_weight",
+      "outcome": "excess_unpredictability",
+      "n": 74,
+      "rho": 0.07788362481741756,
+      "ci95": [
+        -0.1763003163592674,
+        0.32274641857910785
+      ],
+      "p": 0.5111629456847717,
+      "status": "exploratory",
+      "fdr_q": 0.7360746417860713
+    },
+    {
+      "feature": "ten_yd_split",
+      "outcome": "excess_unpredictability",
+      "n": 67,
+      "rho": -0.0344316356946052,
+      "ci95": [
+        -0.2956433351372669,
+        0.19175535586865355
+      ],
+      "p": 0.7737420859713429,
+      "status": "exploratory",
+      "fdr_q": 0.7958490027133812
+    },
+    {
+      "feature": "forty",
+      "outcome": "excess_unpredictability",
+      "n": 67,
+      "rho": -0.05319869127708228,
+      "ci95": [
+        -0.32267935314203283,
+        0.20550080864563577
+      ],
+      "p": 0.6687770743085638,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "vertical",
+      "outcome": "excess_unpredictability",
+      "n": 66,
+      "rho": -0.1378579548711466,
+      "ci95": [
+        -0.3896034338976675,
+        0.13205826639178098
+      ],
+      "p": 0.2659113628790403,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "broad_jump",
+      "outcome": "excess_unpredictability",
+      "n": 65,
+      "rho": 0.04991950139337915,
+      "ci95": [
+        -0.21412930028248517,
+        0.3154492683929513
+      ],
+      "p": 0.6854381872709097,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "three_cone",
+      "outcome": "excess_unpredictability",
+      "n": 27,
+      "rho": 0.20958257524032264,
+      "ci95": [
+        -0.2672743229431341,
+        0.5695720072930285
+      ],
+      "p": 0.29556814395201597,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "short_shuttle",
+      "outcome": "excess_unpredictability",
+      "n": 33,
+      "rho": -0.3591666565273253,
+      "ci95": [
+        -0.6951877389925895,
+        0.09069593230707806
+      ],
+      "p": 0.04065311562812396,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "forty_sensor_speed95",
+      "outcome": "excess_unpredictability",
+      "n": 67,
+      "rho": 0.055316243553969774,
+      "ci95": [
+        -0.19815736259928857,
+        0.30742098417772595
+      ],
+      "p": 0.6591136287904032,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "forty_sensor_accel95",
+      "outcome": "excess_unpredictability",
+      "n": 67,
+      "rho": 0.21165059715860415,
+      "ci95": [
+        -0.007468233375118531,
+        0.4492103320248423
+      ],
+      "p": 0.09496834388537154,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "slant_speed95",
+      "outcome": "excess_unpredictability",
+      "n": 38,
+      "rho": -0.15411498482568733,
+      "ci95": [
+        -0.4772353872207535,
+        0.2095514173706158
+      ],
+      "p": 0.3455514828390536,
+      "status": "exploratory",
+      "fdr_q": 0.590803065644785
+    },
+    {
+      "feature": "slant_turn_rate90",
+      "outcome": "excess_unpredictability",
+      "n": 38,
+      "rho": 0.21903260191118054,
+      "ci95": [
+        -0.1243409767122862,
+        0.5455009328380053
+      ],
+      "p": 0.18993668777074307,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "slant_speed_at_turn",
+      "outcome": "excess_unpredictability",
+      "n": 38,
+      "rho": 0.1864862263783811,
+      "ci95": [
+        -0.22911912855851163,
+        0.531213394261382
+      ],
+      "p": 0.2575808063978674,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "slant_speed_retention",
+      "outcome": "excess_unpredictability",
+      "n": 38,
+      "rho": -0.35951649460106117,
+      "ci95": [
+        -0.6393166935599389,
+        -0.06833016736504258
+      ],
+      "p": 0.031322892369210265,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "curl_speed95",
+      "outcome": "excess_unpredictability",
+      "n": 37,
+      "rho": 0.24507912041486776,
+      "ci95": [
+        -0.14059381987289005,
+        0.5696574241067179
+      ],
+      "p": 0.15194935021659448,
+      "status": "exploratory",
+      "fdr_q": 0.5470176607797401
+    },
+    {
+      "feature": "curl_turn_rate90",
+      "outcome": "excess_unpredictability",
+      "n": 37,
+      "rho": -0.31584655531648537,
+      "ci95": [
+        -0.6619691734648804,
+        0.07341530813755448
+      ],
+      "p": 0.05798067310896368,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "curl_speed_at_turn",
+      "outcome": "excess_unpredictability",
+      "n": 37,
+      "rho": -0.1518882177622108,
+      "ci95": [
+        -0.5682771427355396,
+        0.2476107812494307
+      ],
+      "p": 0.36254581806064645,
+      "status": "exploratory",
+      "fdr_q": 0.590803065644785
+    },
+    {
+      "feature": "curl_speed_retention",
+      "outcome": "excess_unpredictability",
+      "n": 37,
+      "rho": -0.17878285068125607,
+      "ci95": [
+        -0.5133948707255637,
+        0.19910338527397609
+      ],
+      "p": 0.2912362545818061,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "combine_height",
+      "outcome": "excess_brier",
+      "n": 74,
+      "rho": 0.03750914657648753,
+      "ci95": [
+        -0.2266627293769484,
+        0.28030710765186906
+      ],
+      "p": 0.7480839720093302,
+      "status": "exploratory",
+      "fdr_q": 0.7920889115392908
+    },
+    {
+      "feature": "combine_weight",
+      "outcome": "excess_brier",
+      "n": 74,
+      "rho": -0.04428913720089853,
+      "ci95": [
+        -0.27399151075111605,
+        0.20650734104727692
+      ],
+      "p": 0.6997667444185272,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "ten_yd_split",
+      "outcome": "excess_brier",
+      "n": 67,
+      "rho": 0.011564317248048872,
+      "ci95": [
+        -0.21221800118150594,
+        0.2374676787127381
+      ],
+      "p": 0.9293568810396534,
+      "status": "exploratory",
+      "fdr_q": 0.9293568810396534
+    },
+    {
+      "feature": "forty",
+      "outcome": "excess_brier",
+      "n": 67,
+      "rho": -0.043153980599598254,
+      "ci95": [
+        -0.3203058083730523,
+        0.20749235177641845
+      ],
+      "p": 0.7370876374541819,
+      "status": "exploratory",
+      "fdr_q": 0.7920889115392908
+    },
+    {
+      "feature": "vertical",
+      "outcome": "excess_brier",
+      "n": 66,
+      "rho": -0.15534976578457263,
+      "ci95": [
+        -0.43164208936096665,
+        0.11780820609983289
+      ],
+      "p": 0.21992669110296567,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "broad_jump",
+      "outcome": "excess_brier",
+      "n": 65,
+      "rho": 0.07223715018212162,
+      "ci95": [
+        -0.21190151857593614,
+        0.33028783049555416
+      ],
+      "p": 0.5731422859046984,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "three_cone",
+      "outcome": "excess_brier",
+      "n": 27,
+      "rho": 0.32776867595050424,
+      "ci95": [
+        -0.1640408841387204,
+        0.6674519828321924
+      ],
+      "p": 0.08730423192269243,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "short_shuttle",
+      "outcome": "excess_brier",
+      "n": 33,
+      "rho": -0.15281609026013263,
+      "ci95": [
+        -0.5063803441866673,
+        0.31589396542923853
+      ],
+      "p": 0.3938687104298567,
+      "status": "exploratory",
+      "fdr_q": 0.590803065644785
+    },
+    {
+      "feature": "forty_sensor_speed95",
+      "outcome": "excess_brier",
+      "n": 67,
+      "rho": 0.052396327037133476,
+      "ci95": [
+        -0.2101239303263314,
+        0.328826513498063
+      ],
+      "p": 0.6664445184938353,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "forty_sensor_accel95",
+      "outcome": "excess_brier",
+      "n": 67,
+      "rho": 0.22189900860028364,
+      "ci95": [
+        -0.00619852994158881,
+        0.42879146012745606
+      ],
+      "p": 0.07464178607130956,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "slant_speed95",
+      "outcome": "excess_brier",
+      "n": 38,
+      "rho": -0.17455091632899666,
+      "ci95": [
+        -0.47919365100593037,
+        0.14434802690085274
+      ],
+      "p": 0.2805731422859047,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "slant_turn_rate90",
+      "outcome": "excess_brier",
+      "n": 38,
+      "rho": 0.14746437274508462,
+      "ci95": [
+        -0.26644450074394677,
+        0.5111127269108554
+      ],
+      "p": 0.3855381539486838,
+      "status": "exploratory",
+      "fdr_q": 0.590803065644785
+    },
+    {
+      "feature": "slant_speed_at_turn",
+      "outcome": "excess_brier",
+      "n": 38,
+      "rho": 0.20477344759593244,
+      "ci95": [
+        -0.19138683673508214,
+        0.5291176817478906
+      ],
+      "p": 0.22859046984338555,
+      "status": "exploratory",
+      "fdr_q": 0.5600238516985566
+    },
+    {
+      "feature": "slant_speed_retention",
+      "outcome": "excess_brier",
+      "n": 38,
+      "rho": -0.30201275303313657,
+      "ci95": [
+        -0.6255962143567456,
+        0.06098985463538209
+      ],
+      "p": 0.06331222925691436,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "curl_speed95",
+      "outcome": "excess_brier",
+      "n": 37,
+      "rho": 0.3197158129945349,
+      "ci95": [
+        -0.03171540087189182,
+        0.6454798932491665
+      ],
+      "p": 0.05798067310896368,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "curl_turn_rate90",
+      "outcome": "excess_brier",
+      "n": 37,
+      "rho": -0.3834611248989791,
+      "ci95": [
+        -0.6660981009033113,
+        -0.052107840132256764
+      ],
+      "p": 0.019993335554815063,
+      "status": "exploratory",
+      "fdr_q": 0.37987337554148615
+    },
+    {
+      "feature": "curl_speed_at_turn",
+      "outcome": "excess_brier",
+      "n": 37,
+      "rho": -0.0835023285380778,
+      "ci95": [
+        -0.5038630869069376,
+        0.2580213051731938
+      ],
+      "p": 0.6227924025324891,
+      "status": "exploratory",
+      "fdr_q": 0.787237587470843
+    },
+    {
+      "feature": "curl_speed_retention",
+      "outcome": "excess_brier",
+      "n": 37,
+      "rho": -0.14254274299422626,
+      "ci95": [
+        -0.45086933888464154,
+        0.22756038378349092
+      ],
+      "p": 0.392535821392869,
+      "status": "exploratory",
+      "fdr_q": 0.590803065644785
+    }
+  ],
+  "players": 74,
+  "separation": {
+    "n": 71,
+    "rho": -0.05902678630281777,
+    "ci95": [
+      -0.29714110560418383,
+      0.21907346541519795
+    ]
+  },
+  "notes": [
+    "Two outcomes \u00d7 18 Combine features; one BH correction across all 36 planned tests, including untestable features as p=1.",
+    "Complete-case player-level partial rank correlations adjust for position, draft class, route count and observed duration. Score already adjusts route and play context using validation data.",
+    "Intervals bootstrap players; residual permutation p-values are exploratory. Shared team/scheme and model-estimation uncertainty remain.",
+    "Separation check uses available precomputed separation at release, not a claim about nearest defenders in the cohort tracking."
+  ]
+}

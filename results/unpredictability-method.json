@@ -1,0 +1,33 @@
+{
+  "formula": "100 / T \u00d7 trapezoid(1 - P(actual route | prefix), native frame times)",
+  "window": "Snap to last eligible observed frame before pass release/end, capped at 3 seconds; minimum 0.5 seconds. Separate fixed 0\u20132-second score.",
+  "n_scored_test_routes": 19321,
+  "n_players": 96,
+  "n_qualified_players": 74,
+  "mean_route_score": 62.570202921339444,
+  "median_route_score": 66.69498326686713,
+  "fraction_reaching_three_second_cap": 0.4245639459655297,
+  "split_game_repeatability": {
+    "players": 67,
+    "spearman": 0.3608029371857292
+  },
+  "proper_score_agreement": 0.9149944465012956,
+  "checks": {
+    "unit_interval_bounds": true,
+    "proper_brier_bounds": true,
+    "native_step_seconds": 0.1,
+    "constant_probability_check": 70.0,
+    "uniform_probability_reference": 91.66666666666666
+  },
+  "notes": [
+    "Score 0 means probability 1 on the actual route throughout; 100 means probability 0 throughout. A uniform 12-route prediction scores 91.67, not 50.",
+    "Integrated entropy is also reported: many plausible routes and a confidently wrong prediction are different phenomena. The confident-wrong fraction flags frames with incorrect top route and confidence >=0.8.",
+    "This is model unpredictability. It is not a causal measure of deception, receiver quality, or defender perception.",
+    "Duration normalization prevents a longer route automatically accumulating more error, but cannot remove all duration-selection effects. Use the fixed-window sensitivity measure.",
+    "Context adjustment is fit only on validation plays, using recorded route, position, formation, alignment, down, yards-to-go, sideline distance and duration. No test outcome or Combine feature fits that adjustment.",
+    "Player means weight each eligible route equally. Bootstrap intervals resample games within a player; provisional flags indicate fewer than 50 routes or 5 games.",
+    "Shrunk scores pull noisy estimates toward the qualified-player mean. Displayed bootstrap intervals describe the unshrunk excess score.",
+    "The 1-p score is intuitive but is not a strictly proper scoring rule. Integrated multiclass Brier and log loss are included as robustness measures.",
+    "Only eligible 2025 regular-season WR/TE routes are scored; these are not complete career totals or all 510 prospects. Scores do not cover the full route after pass release or beyond the three-second analysis window."
+  ]
+}

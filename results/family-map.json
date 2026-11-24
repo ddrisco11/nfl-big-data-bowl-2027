@@ -1,0 +1,26 @@
+{
+  "Vertical": [
+    "GO",
+    "WHEEL"
+  ],
+  "In-breaking": [
+    "IN",
+    "POST",
+    "SLANT"
+  ],
+  "Out-breaking": [
+    "OUT",
+    "CORNER"
+  ],
+  "Crossing": [
+    "CROSS"
+  ],
+  "Stop": [
+    "HITCH"
+  ],
+  "Underneath": [
+    "ANGLE",
+    "FLAT",
+    "SCREEN"
+  ]
+}

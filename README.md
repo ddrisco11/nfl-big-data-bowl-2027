@@ -4,7 +4,7 @@
 
 **David Driscoll · Applied Mathematics, Columbia University**
 
-![NFL Big Data Bowl artwork](https://raw.githubusercontent.com/ddrisco11/nfl-big-data-bowl-2027/main/assets/nfl-big-data-bowl.jpg)
+![NFL Big Data Bowl artwork](assets/nfl-big-data-bowl.jpg)
 
 **Can Combine movement traits explain how long a receiver keeps a route difficult to recognize?**
 
@@ -22,7 +22,7 @@ $$
 
 The integral is evaluated on native **10 Hz** tracking frames. The window runs from snap to release/end, capped at three seconds. Higher values mean the model assigned less probability to the actual route throughout that window. Player scores adjust for route and play context; Brier score, entropy, and confidence diagnostics distinguish different sources of uncertainty.
 
-![Integrated route unpredictability](https://raw.githubusercontent.com/ddrisco11/nfl-big-data-bowl-2027/main/figures/integral.png)
+![Integrated route unpredictability](figures/integral.png)
 
 ## Evidence
 
@@ -38,7 +38,7 @@ The integral is evaluated on native **10 Hz** tracking frames. The window runs f
 
 The selected model blends a joint route-and-path GRU with a causal temporal convolution network. Training uses 2023–2024 games, with separate game groups for model selection and calibration. **2025 is a development holdout, not an untouched confirmatory sample.** Later observation times have fewer eligible routes.
 
-![Model performance](https://raw.githubusercontent.com/ddrisco11/nfl-big-data-bowl-2027/main/figures/model-performance.png)
+![Model performance](figures/model-performance.png)
 
 **The current evidence does not establish a Combine-to-deception relationship.** None of the 36 planned Combine association tests survives false-discovery-rate correction (minimum $q=0.380$). The player-level relationship with provided separation at pass release is close to zero ($\rho=-0.06$, 95% bootstrap interval −0.30 to 0.22). Model unpredictability remains an exploratory measurement, not a validated scouting grade.
 
@@ -55,4 +55,4 @@ python src/run.py --data /absolute/path/to/competition/csvs
 
 The pipeline prepares native-rate sequences, fits and calibrates model candidates, evaluates probabilities, integrates route scores, extracts Combine features, and runs association and robustness analyses. Outputs and checkpoints remain under `.work/`. Training runs on CPU; the reference environment and optional figure/demo commands are documented in [methodology](docs/methodology.md).
 
-The repository contains source, aggregate findings, and figures. Competition CSVs, row-level tracking, checkpoints, and locally generated play visualizations are excluded. NFL/AWS artwork is [attributed separately](https://raw.githubusercontent.com/ddrisco11/nfl-big-data-bowl-2027/main/assets/ATTRIBUTION.md).
+The repository contains source, aggregate findings, and figures. Competition CSVs, row-level tracking, checkpoints, and locally generated play visualizations are excluded. NFL/AWS artwork is [attributed separately](assets/ATTRIBUTION.md).

@@ -1,0 +1,16 @@
+.venv/
+.work/
+work/
+data/
+__pycache__/
+*.pyc
+.env
+kaggle.json
+access_token
+*.parquet
+*.pkl
+*.pt
+*.npz
+*.npy
+*.csv
+*.csv.gz

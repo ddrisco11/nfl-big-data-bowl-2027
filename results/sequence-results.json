@@ -1,0 +1,416 @@
+{
+  "metrics": [
+    {
+      "model": "Sequence GRU",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2642798013245033,
+      "family_accuracy": 0.33153973509933776,
+      "log_loss": 1.977281928062439,
+      "brier": 0.8305146186971121,
+      "ece": 0.013758305496449845
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.4091546006539,
+      "family_accuracy": 0.49462867818776274,
+      "log_loss": 1.5690152645111084,
+      "brier": 0.7124464693443794,
+      "ece": 0.005915355633499022
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5820748925721302,
+      "family_accuracy": 0.6658072437077962,
+      "log_loss": 1.112736701965332,
+      "brier": 0.5369237649976206,
+      "ece": 0.017735094508010966
+    },
+    {
+      "model": "Sequence GRU",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7675240765573571,
+      "family_accuracy": 0.8353041570157259,
+      "log_loss": 0.6413047909736633,
+      "brier": 0.3241527475529562,
+      "ece": 0.019468942967970228
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 0.0,
+      "n": 19328,
+      "accuracy": 0.2650558774834437,
+      "family_accuracy": 0.33391970198675497,
+      "log_loss": 1.9741294384002686,
+      "brier": 0.8297079422602258,
+      "ece": 0.014261889386311519
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 1.0,
+      "n": 19269,
+      "accuracy": 0.40863563236286266,
+      "family_accuracy": 0.4926047018527168,
+      "log_loss": 1.5644330978393555,
+      "brier": 0.7115327588749899,
+      "ece": 0.012080345922058611
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 2.0,
+      "n": 16290,
+      "accuracy": 0.5860036832412523,
+      "family_accuracy": 0.6659300184162062,
+      "log_loss": 1.1045167446136475,
+      "brier": 0.5335731242875159,
+      "ece": 0.014482093059519011
+    },
+    {
+      "model": "Joint route and path",
+      "observation": 3.0,
+      "n": 8203,
+      "accuracy": 0.7694745824698281,
+      "family_accuracy": 0.8356698768743143,
+      "log_loss": 0.6412699818611145,
+      "brier": 0.3236245549834374,
+      "ece": 0.02332931684129606
+    }
+  ],
+  "selection": [
+    {
+      "model": "Sequence GRU",
+      "best_epoch": 32,
+      "selection_log_loss": 1.3687127828598022,
+      "temperature": 1.15,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_log_loss": 1.8211763924471294
+        },
+        {
+          "epoch": 2,
+          "selection_log_loss": 1.7071224010320614
+        },
+        {
+          "epoch": 3,
+          "selection_log_loss": 1.6385008430356454
+        },
+        {
+          "epoch": 4,
+          "selection_log_loss": 1.5741010111872666
+        },
+        {
+          "epoch": 5,
+          "selection_log_loss": 1.5361350776600853
+        },
+        {
+          "epoch": 6,
+          "selection_log_loss": 1.5222140350507158
+        },
+        {
+          "epoch": 7,
+          "selection_log_loss": 1.497422507759473
+        },
+        {
+          "epoch": 8,
+          "selection_log_loss": 1.4839134891050503
+        },
+        {
+          "epoch": 9,
+          "selection_log_loss": 1.4819994783447725
+        },
+        {
+          "epoch": 10,
+          "selection_log_loss": 1.4552614729986977
+        },
+        {
+          "epoch": 11,
+          "selection_log_loss": 1.440112317529596
+        },
+        {
+          "epoch": 12,
+          "selection_log_loss": 1.438954554600706
+        },
+        {
+          "epoch": 13,
+          "selection_log_loss": 1.4366251159563916
+        },
+        {
+          "epoch": 14,
+          "selection_log_loss": 1.424753900877981
+        },
+        {
+          "epoch": 15,
+          "selection_log_loss": 1.4175671482570298
+        },
+        {
+          "epoch": 16,
+          "selection_log_loss": 1.4111548823384255
+        },
+        {
+          "epoch": 17,
+          "selection_log_loss": 1.40272017504563
+        },
+        {
+          "epoch": 18,
+          "selection_log_loss": 1.3963614684040122
+        },
+        {
+          "epoch": 19,
+          "selection_log_loss": 1.4048052982267683
+        },
+        {
+          "epoch": 20,
+          "selection_log_loss": 1.395991151863858
+        },
+        {
+          "epoch": 21,
+          "selection_log_loss": 1.4003168773290302
+        },
+        {
+          "epoch": 22,
+          "selection_log_loss": 1.3973439227958184
+        },
+        {
+          "epoch": 23,
+          "selection_log_loss": 1.3825564873986793
+        },
+        {
+          "epoch": 24,
+          "selection_log_loss": 1.3836575284910102
+        },
+        {
+          "epoch": 25,
+          "selection_log_loss": 1.383900890854041
+        },
+        {
+          "epoch": 26,
+          "selection_log_loss": 1.3828819896651268
+        },
+        {
+          "epoch": 27,
+          "selection_log_loss": 1.3797250434811712
+        },
+        {
+          "epoch": 28,
+          "selection_log_loss": 1.3783334801355116
+        },
+        {
+          "epoch": 29,
+          "selection_log_loss": 1.3795713406103642
+        },
+        {
+          "epoch": 30,
+          "selection_log_loss": 1.3743121897102022
+        },
+        {
+          "epoch": 31,
+          "selection_log_loss": 1.3755401230900368
+        },
+        {
+          "epoch": 32,
+          "selection_log_loss": 1.3684460687416424
+        },
+        {
+          "epoch": 33,
+          "selection_log_loss": 1.3751944509964922
+        },
+        {
+          "epoch": 34,
+          "selection_log_loss": 1.3717849518409637
+        },
+        {
+          "epoch": 35,
+          "selection_log_loss": 1.3744607000419067
+        },
+        {
+          "epoch": 36,
+          "selection_log_loss": 1.3725752451522109
+        },
+        {
+          "epoch": 37,
+          "selection_log_loss": 1.3757427373273825
+        },
+        {
+          "epoch": 38,
+          "selection_log_loss": 1.374624552810363
+        },
+        {
+          "epoch": 39,
+          "selection_log_loss": 1.3770999333671596
+        }
+      ],
+      "causal_max_logit_difference": 0.0
+    },
+    {
+      "model": "Joint route and path",
+      "best_epoch": 32,
+      "selection_log_loss": 1.3637945652008057,
+      "temperature": 1.15,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_log_loss": 1.8228162321916332
+        },
+        {
+          "epoch": 2,
+          "selection_log_loss": 1.7068073766782483
+        },
+        {
+          "epoch": 3,
+          "selection_log_loss": 1.635393984121005
+        },
+        {
+          "epoch": 4,
+          "selection_log_loss": 1.5712214357124297
+        },
+        {
+          "epoch": 5,
+          "selection_log_loss": 1.5336099749827303
+        },
+        {
+          "epoch": 6,
+          "selection_log_loss": 1.5193428827531354
+        },
+        {
+          "epoch": 7,
+          "selection_log_loss": 1.4959631752801175
+        },
+        {
+          "epoch": 8,
+          "selection_log_loss": 1.4820248407109722
+        },
+        {
+          "epoch": 9,
+          "selection_log_loss": 1.4802933176836766
+        },
+        {
+          "epoch": 10,
+          "selection_log_loss": 1.4515675291505061
+        },
+        {
+          "epoch": 11,
+          "selection_log_loss": 1.4356256171632888
+        },
+        {
+          "epoch": 12,
+          "selection_log_loss": 1.4342534933472124
+        },
+        {
+          "epoch": 13,
+          "selection_log_loss": 1.43222080305198
+        },
+        {
+          "epoch": 14,
+          "selection_log_loss": 1.419240098948134
+        },
+        {
+          "epoch": 15,
+          "selection_log_loss": 1.4126692780125292
+        },
+        {
+          "epoch": 16,
+          "selection_log_loss": 1.4071469105593
+        },
+        {
+          "epoch": 17,
+          "selection_log_loss": 1.3983468378959352
+        },
+        {
+          "epoch": 18,
+          "selection_log_loss": 1.393097607901829
+        },
+        {
+          "epoch": 19,
+          "selection_log_loss": 1.4006424662409453
+        },
+        {
+          "epoch": 20,
+          "selection_log_loss": 1.3931642444554821
+        },
+        {
+          "epoch": 21,
+          "selection_log_loss": 1.3966023613712126
+        },
+        {
+          "epoch": 22,
+          "selection_log_loss": 1.3931694617504324
+        },
+        {
+          "epoch": 23,
+          "selection_log_loss": 1.3792642195610016
+        },
+        {
+          "epoch": 24,
+          "selection_log_loss": 1.3801998915891909
+        },
+        {
+          "epoch": 25,
+          "selection_log_loss": 1.3798858884141048
+        },
+        {
+          "epoch": 26,
+          "selection_log_loss": 1.3788332697603158
+        },
+        {
+          "epoch": 27,
+          "selection_log_loss": 1.3761702584431306
+        },
+        {
+          "epoch": 28,
+          "selection_log_loss": 1.3760368429896983
+        },
+        {
+          "epoch": 29,
+          "selection_log_loss": 1.375046138711571
+        },
+        {
+          "epoch": 30,
+          "selection_log_loss": 1.37123912252798
+        },
+        {
+          "epoch": 31,
+          "selection_log_loss": 1.3705409519158254
+        },
+        {
+          "epoch": 32,
+          "selection_log_loss": 1.3631831116298616
+        },
+        {
+          "epoch": 33,
+          "selection_log_loss": 1.3714126053212794
+        },
+        {
+          "epoch": 34,
+          "selection_log_loss": 1.3676549461094898
+        },
+        {
+          "epoch": 35,
+          "selection_log_loss": 1.3711161540423724
+        },
+        {
+          "epoch": 36,
+          "selection_log_loss": 1.3681198176107954
+        },
+        {
+          "epoch": 37,
+          "selection_log_loss": 1.3702460293105279
+        },
+        {
+          "epoch": 38,
+          "selection_log_loss": 1.3699586139161137
+        },
+        {
+          "epoch": 39,
+          "selection_log_loss": 1.370347918191627
+        }
+      ],
+      "causal_max_logit_difference": 0.0
+    }
+  ]
+}
