@@ -1,0 +1,146 @@
+{
+  "name": "Route Entropy Index",
+  "version": "prototype 1",
+  "modes": 8,
+  "horizon_seconds": 1,
+  "path_sample_offsets_seconds": [
+    0.5,
+    1.0
+  ],
+  "native_step_seconds": 0.1,
+  "training_frames": 82421,
+  "metrics": {
+    "Context and speed baseline": {
+      "temperature": 1,
+      "selection": {
+        "frames": 114766,
+        "log_loss": 1.2605623006820679,
+        "accuracy": 0.4772754997124584,
+        "brier": 0.6295733109475126,
+        "ece": 0.018555229934935087,
+        "energy_score_four_dimensional_yards": 1.9986175217093833,
+        "prediction_set_90_coverage": 0.9456372096265444,
+        "prediction_set_90_mean_modes": 3.6728822125019605
+      },
+      "test": {
+        "frames": 374145,
+        "log_loss": 1.2420624494552612,
+        "accuracy": 0.48914725574309426,
+        "brier": 0.6202604934126775,
+        "ece": 0.00812397372069618,
+        "energy_score_four_dimensional_yards": 1.956721463792515,
+        "prediction_set_90_coverage": 0.9543839955097623,
+        "prediction_set_90_mean_modes": 3.7442996699140707
+      }
+    },
+    "Movement prefix": {
+      "temperature": 1,
+      "selection": {
+        "frames": 114766,
+        "log_loss": 0.48226791620254517,
+        "accuracy": 0.804959657041284,
+        "brier": 0.27166778120711327,
+        "ece": 0.010784936560855397,
+        "energy_score_four_dimensional_yards": 1.3050776375539268,
+        "prediction_set_90_coverage": 0.9718557761009358,
+        "prediction_set_90_mean_modes": 1.7365160413362843
+      },
+      "test": {
+        "frames": 374145,
+        "log_loss": 0.4859621524810791,
+        "accuracy": 0.8063157332050408,
+        "brier": 0.2725195717361283,
+        "ece": 0.006716596010072929,
+        "energy_score_four_dimensional_yards": 1.2902874564986404,
+        "prediction_set_90_coverage": 0.9719360141121758,
+        "prediction_set_90_mean_modes": 1.751606997287148
+      }
+    }
+  },
+  "paired_improvement": {
+    "movement_minus_baseline_log_loss": -0.7561002373695374,
+    "game_bootstrap_ci95": [
+      -0.7643952211691759,
+      -0.7473427806177801
+    ]
+  },
+  "scored_routes": 18771,
+  "players": 96,
+  "qualified_players": 74,
+  "mean_rei": 25.61550820496689,
+  "repeatability": {
+    "players": 67,
+    "spearman": 0.6156915954984437
+  },
+  "mode_centers_relative_yards": [
+    [
+      2.7619361877441406,
+      -0.8201794028282166,
+      5.89974308013916,
+      -1.7381303310394287
+    ],
+    [
+      0.2448677271604538,
+      -0.07108372449874878,
+      1.1643856763839722,
+      -0.21406705677509308
+    ],
+    [
+      0.8481658697128296,
+      2.6954050064086914,
+      1.5592888593673706,
+      5.696020126342773
+    ],
+    [
+      1.179136037826538,
+      -2.390545129776001,
+      2.5193474292755127,
+      -4.934275150299072
+    ],
+    [
+      1.3430966138839722,
+      0.3374391496181488,
+      3.369845390319824,
+      0.987169623374939
+    ],
+    [
+      2.670220375061035,
+      1.3310139179229736,
+      5.430356979370117,
+      3.056520938873291
+    ],
+    [
+      3.4752464294433594,
+      0.08028680086135864,
+      7.204383373260498,
+      0.21268326044082642
+    ],
+    [
+      1.351893663406372,
+      -0.6472605466842651,
+      3.3117597103118896,
+      -1.6615217924118042
+    ]
+  ],
+  "checks": {
+    "probability_sums": true,
+    "entropy_bounds": true,
+    "uniform_rei": 100.0,
+    "certain_rei": 0.0,
+    "no_combine_inputs": true,
+    "training_only_mode_dictionary": true,
+    "future_input_perturbation_invariance": true,
+    "route_label_identifier_combine_feature_invariance": true,
+    "gap_rejected": true,
+    "reaction_censoring_and_anticipation_tests": true
+  },
+  "notes": [
+    "Entropy is over eight learned future-path modes, not exact route labels or all physically possible paths. Modes summarize positions at 0.5 and 1 second ahead in normalized field coordinates.",
+    "2025 is a development holdout; not a new confirmatory test.",
+    "Forecast origins stop one full second before release/end or missing data, capped at 3 seconds. At least 0.5 seconds of contiguous origins is required. This favors longer-observed plays.",
+    "Entropy measures model predictive ambiguity, including model uncertainty; it is not proof of deception or receiver quality.",
+    "The same fixed mode dictionary must be used for player comparisons. Mode count and granularity affect the scale.",
+    "Defender response is a separate validation axis; it is not added to Shannon entropy."
+  ],
+  "constant_velocity_energy_score_four_dimensional_yards": 1.873624324798584
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Candidate-defender movement response lag",
+  "status": "exploratory proxy; not identified defender reaction time",
+  "counts": {
+    "eligible_test_routes": 19328,
+    "routes_in_plays_with_recorded_man_defender": 3735,
+    "detected_receiver_breaks": 20,
+    "no_candidate_with_complete_prebreak_tracking": 0,
+    "candidate_too_far": 15,
+    "ambiguous_among_recorded_candidates": 1,
+    "another_recorded_receiver_closer": 0,
+    "accepted_candidate_pairs": 4
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold_yards_per_second": 0.75,
+      "candidate_pairs": 4,
+      "observed_responses": 3,
+      "censored": 1,
+      "anticipatory_or_simultaneous": 2,
+      "median_lag_among_observed_seconds": -0.1
+    },
+    {
+      "threshold_yards_per_second": 1.0,
+      "candidate_pairs": 4,
+      "observed_responses": 3,
+      "censored": 1,
+      "anticipatory_or_simultaneous": 2,
+      "median_lag_among_observed_seconds": -0.1
+    },
+    {
+      "threshold_yards_per_second": 1.25,
+      "candidate_pairs": 4,
+      "observed_responses": 3,
+      "censored": 1,
+      "anticipatory_or_simultaneous": 2,
+      "median_lag_among_observed_seconds": -0.1
+    }
+  ],
+  "notes": [
+    "Coverage assignment MAN names a role, not a receiver-defender matchup. Actual responsibility cannot be recovered from these fields.",
+    "Nearest available MAN candidate within 4 yards at receiver break; require a 1-yard margin over other recorded MAN candidates and no other recorded receiver within candidate distance +0.75 yards. Unrecorded players can invalidate every pairing.",
+    "Break: 35-degree mean heading change, three-frame persistence, prebreak speed >=3 and postbreak speed >=2 yards/second. Candidate onset is retrospective and confirmed 0.2 seconds later.",
+    "Response: sustained change in candidate defender lateral velocity toward the receiver break relative to a prebreak baseline. This can reflect anticipation, shared play geometry, or a different assignment, not a causal response.",
+    "Search lags -0.2 to +1.0 seconds; three-frame persistence. Unobserved responses are censored, never assigned a fabricated 1-second delay.",
+    "No receiver quality ranking or causal Combine association is inferred from this proxy. It is kept separate from REI."
+  ]
+}

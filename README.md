@@ -1,6 +1,6 @@
 # NFL Big Data Bowl 2027
 
-## Route Unpredictability
+## Route Entropy and Unpredictability
 
 **David Driscoll · Applied Mathematics, Columbia University**
 
@@ -8,11 +8,27 @@
 
 **Can Combine movement traits explain how long a receiver keeps a route difficult to recognize?**
 
-This project turns causal route forecasts into a continuous measure of route unpredictability, then tests its reliability and relationship with Combine performance. It combines hierarchical route classification, recurrent and temporal convolution models, calibrated probabilities, numerical integration, and player-level statistical inference.
+This project measures uncertainty about both recorded route labels and a receiver’s next second of movement, then tests reliability and relationships with Combine performance. It combines hierarchical route classification, recurrent and temporal convolution models, calibrated probabilities, numerical integration, and player-level statistical inference.
 
-[Read the analysis](docs/writeup.md) · [Methods and limitations](docs/methodology.md) · [Reproduction notebook](analysis.ipynb) · [Source](src/) · [Results](results/)
+[Route Entropy Index](docs/route-entropy-index.md) · [Route-label analysis](docs/writeup.md) · [Methods and limitations](docs/methodology.md) · [Reproduction notebook](analysis.ipynb) · [Source](src/) · [Results](results/)
 
-## Measuring the whole observed route
+## Route Entropy Index
+
+How many future movement patterns remain plausible as a receiver runs? A calibrated model predicts eight learned patterns for the next second, and their Shannon entropy is integrated at native **10 Hz**:
+
+$$
+\operatorname{REI}_i=\frac{100}{T_i\log 8}\int_0^{T_i}\left[-\sum_{k=1}^{8}p_{i,k}(t)\log p_{i,k}(t)\right]dt.
+$$
+
+Zero means one predicted pattern has all the probability; 100 means all eight remain equally likely throughout. This is model-based future-path ambiguity, not established deception or receiver value. Eligible forecast origins require a complete future second before release/end.
+
+![Route Entropy Index and repeatability](figures/route-entropy-index.png)
+
+The prototype scores **18,771 routes**. Context-adjusted player scores have **0.62 rank correlation across disjoint game groups**. Future-pattern log loss is **0.486**, versus **1.242** for a context-and-speed baseline; these are eight-mode movement forecasts, not twelve-route classification results.
+
+**Defender reaction remains a feasibility study.** Coverage labels do not identify receiver–defender matchups, and the strict observable-pair screen retains only four candidates. The implemented movement-response lag handles anticipation and censoring, but cannot support player ratings and is not folded into REI. [Methods, diagnostics, and reproduction](docs/route-entropy-index.md).
+
+## Recorded-route unpredictability
 
 For route $i$, let $p_{i,t}(r_i)$ be the probability assigned to its recorded route label using only information available through time $t$.
 
