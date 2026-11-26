@@ -1,0 +1,7 @@
+{
+  "all_97_scores_recomputed": true,
+  "unique_player_heldout_predictions": true,
+  "linear_operator_matches_direct_refit": true,
+  "disjoint_players": true,
+  "official_only_feature_allowlist": true
+}

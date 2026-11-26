@@ -1,0 +1,269 @@
+[
+  {
+    "group": "Edge",
+    "target": "game_speed95",
+    "conditional_bootstrap_pearson_ci95": [
+      0.4464253284996932,
+      0.7581537918968771
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 23,
+        "evaluation_players": 16,
+        "pearson": 0.5295277323630183,
+        "r2": 0.22592749936045342
+      },
+      {
+        "class": 2025,
+        "training_players": 39,
+        "evaluation_players": 17,
+        "pearson": 0.5507529315174672,
+        "r2": 0.24637212137412756
+      }
+    ]
+  },
+  {
+    "group": "Edge",
+    "target": "game_speed99",
+    "conditional_bootstrap_pearson_ci95": [
+      0.4034427045822421,
+      0.7434152788844358
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 23,
+        "evaluation_players": 16,
+        "pearson": 0.5582868322010991,
+        "r2": 0.2957736255906189
+      },
+      {
+        "class": 2025,
+        "training_players": 39,
+        "evaluation_players": 17,
+        "pearson": 0.5988349433941955,
+        "r2": 0.2861957982631993
+      }
+    ]
+  },
+  {
+    "group": "WR",
+    "target": "game_speed95",
+    "conditional_bootstrap_pearson_ci95": [
+      0.36466807486406444,
+      0.6779918157302984
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 31,
+        "evaluation_players": 27,
+        "pearson": 0.4594962561589245,
+        "r2": 0.09996636306511442
+      },
+      {
+        "class": 2025,
+        "training_players": 58,
+        "evaluation_players": 22,
+        "pearson": 0.6589032743666905,
+        "r2": 0.42503109791715965
+      }
+    ]
+  },
+  {
+    "group": "WR",
+    "target": "separation_at_release",
+    "conditional_bootstrap_pearson_ci95": [
+      0.3509520010994559,
+      0.6669040638545646
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 30,
+        "evaluation_players": 26,
+        "pearson": 0.38061980919233107,
+        "r2": -0.011032407475033645
+      },
+      {
+        "class": 2025,
+        "training_players": 56,
+        "evaluation_players": 18,
+        "pearson": 0.7426826969782323,
+        "r2": 0.5368612790289187
+      }
+    ]
+  },
+  {
+    "group": "Edge",
+    "target": "game_mean_speed",
+    "conditional_bootstrap_pearson_ci95": [
+      0.31737238990573413,
+      0.6719923976504834
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 23,
+        "evaluation_players": 16,
+        "pearson": 0.5563242168241125,
+        "r2": 0.20107616989549837
+      },
+      {
+        "class": 2025,
+        "training_players": 39,
+        "evaluation_players": 17,
+        "pearson": 0.564529749657547,
+        "r2": 0.09234878363824461
+      }
+    ]
+  },
+  {
+    "group": "Interior_DL",
+    "target": "pass_rush_getoff_time",
+    "conditional_bootstrap_pearson_ci95": [
+      0.23365179122085297,
+      0.6941659838311559
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2025,
+        "training_players": 20,
+        "evaluation_players": 17,
+        "pearson": 0.4916363076629273,
+        "r2": 0.24148674815122517
+      }
+    ]
+  },
+  {
+    "group": "WR",
+    "target": "game_speed99",
+    "conditional_bootstrap_pearson_ci95": [
+      0.26451935227686385,
+      0.6317762937837088
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 31,
+        "evaluation_players": 27,
+        "pearson": 0.4117313445350357,
+        "r2": -0.14794478769597452
+      },
+      {
+        "class": 2025,
+        "training_players": 58,
+        "evaluation_players": 22,
+        "pearson": 0.5423311842865328,
+        "r2": 0.272954596801949
+      }
+    ]
+  },
+  {
+    "group": "Interior_DL",
+    "target": "career_games_active",
+    "conditional_bootstrap_pearson_ci95": [
+      0.2697521180118221,
+      0.5905940803065827
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2025,
+        "training_players": 21,
+        "evaluation_players": 19,
+        "pearson": 0.15468101115592528,
+        "r2": -16.323771594578584
+      }
+    ]
+  },
+  {
+    "group": "Edge",
+    "target": "game_acceleration95",
+    "conditional_bootstrap_pearson_ci95": [
+      0.20797085881503394,
+      0.5975770076894604
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 23,
+        "evaluation_players": 16,
+        "pearson": 0.620922780743791,
+        "r2": 0.19279004589553328
+      },
+      {
+        "class": 2025,
+        "training_players": 39,
+        "evaluation_players": 17,
+        "pearson": 0.10099906206758258,
+        "r2": -0.0690228031330975
+      }
+    ]
+  },
+  {
+    "group": "WR",
+    "target": "game_mean_speed",
+    "conditional_bootstrap_pearson_ci95": [
+      0.21084255587194795,
+      0.59918528909956
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 31,
+        "evaluation_players": 27,
+        "pearson": 0.3102819808208902,
+        "r2": -0.2561268116892943
+      },
+      {
+        "class": 2025,
+        "training_players": 58,
+        "evaluation_players": 22,
+        "pearson": 0.46196656392280816,
+        "r2": 0.19119649264820038
+      }
+    ]
+  },
+  {
+    "group": "WR",
+    "target": "expected_yac",
+    "conditional_bootstrap_pearson_ci95": [
+      0.17145721821546892,
+      0.6031985549057959
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2024,
+        "training_players": 27,
+        "evaluation_players": 21,
+        "pearson": 0.5853178952328586,
+        "r2": 0.16453746038623684
+      },
+      {
+        "class": 2025,
+        "training_players": 48,
+        "evaluation_players": 17,
+        "pearson": 0.2646672589345226,
+        "r2": -0.43039292215409586
+      }
+    ]
+  },
+  {
+    "group": "CB",
+    "target": "career_games_active",
+    "conditional_bootstrap_pearson_ci95": [
+      0.11232436862356147,
+      0.6250180448112637
+    ],
+    "draft_class_transfer": [
+      {
+        "class": 2025,
+        "training_players": 35,
+        "evaluation_players": 13,
+        "pearson": 0.5430508022642209,
+        "r2": -13.435338348756732
+      }
+    ]
+  }
+]

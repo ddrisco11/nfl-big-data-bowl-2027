@@ -12,6 +12,19 @@ This project predicts receiver separation from official Combine results and sens
 
 [Combine-to-separation study](docs/combine-separation.md) · [Route Entropy Index](docs/route-entropy-index.md) · [Route-label analysis](docs/writeup.md) · [Methods and limitations](docs/methodology.md) · [Reproduction notebook](analysis.ipynb) · [Source](src/) · [Results](results/)
 
+## Which game outcomes are predictable?
+
+A broad survey evaluates **97 position-group/target pairs** using fixed ridge regression on official Combine measurements. It repeats player-held-out evaluation, screens event-conditional denominators, and compares position/draft-class metadata baselines. Permutation tests and false-discovery-rate correction help prioritize follow-up hypotheses; they do not replace independent confirmation.
+
+| Target | Players | Held-out Pearson r | Held-out R² |
+|---|---:|---:|---:|
+| Edge-player 95th-percentile game speed | 56 | **0.629** | **0.375** |
+| WR 95th-percentile game speed | 80 | 0.532 | 0.259 |
+| WR release separation, ≥25 observations | 74 | 0.529 | 0.252 |
+| Interior DL get-off time | 37 | 0.494 | 0.174 |
+
+Movement speed is physical transfer rather than a direct measure of football success. Edge-speed class-transfer correlations are 0.530 and 0.551 for the 2024 and 2025 draft classes. Interior-DL get-off time is a smaller-sample candidate with exploratory FDR q=0.057. Many blocking, YAC, and event-rate targets remain poorly predicted. [Complete ranking, definitions, and uncertainty](docs/performance-survey.md).
+
 ## Combine results and receiver separation
 
 Official body measurements and drill results are evaluated against sensor-derived speed, turning, braking, and exit-speed features. The outcome is each wide receiver’s mean separation at pass release, with a second target adjusted for route, coverage, initial cushion, time to throw, and other measured context.
