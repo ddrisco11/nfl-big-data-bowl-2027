@@ -26,6 +26,8 @@ Zero means one predicted pattern has all the probability; 100 means all eight re
 
 The prototype scores **18,771 routes**. Context-adjusted player scores have **0.62 rank correlation across disjoint game groups**. Future-pattern log loss is **0.486**, versus **1.242** for a context-and-speed baseline; these are eight-mode movement forecasts, not twelve-route classification results.
 
+**Higher entropy does not currently imply better separation.** Across 71 players, raw REI correlates negatively with release separation (ρ = −0.56); after context adjustment the relationship is weaker (ρ = −0.26, exploratory 95% player-bootstrap interval −0.48 to −0.02). [Separation analysis](docs/route-entropy-index.md#relationship-with-separation-at-release).
+
 **Defender reaction remains a feasibility study.** Coverage labels do not identify receiver–defender matchups, and the strict observable-pair screen retains only four candidates. The implemented movement-response lag handles anticipation and censoring, but cannot support player ratings and is not folded into REI. [Methods, diagnostics, and reproduction](docs/route-entropy-index.md).
 
 ## Recorded-route unpredictability

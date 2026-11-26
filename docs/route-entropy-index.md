@@ -58,6 +58,25 @@ A validation-fitted ridge model adjusts for recorded route, position, coverage c
 
 Adjusted scores have **Spearman correlation 0.62** between disjoint game groups among 67 players with at least 25 routes in each group. This is a preliminary repeatability result. Different labels, horizons, and eligibility prevent treating it as a direct improvement over recorded-route unpredictability. Team/scheme effects and uncertainty from fitting the model remain.
 
+## Relationship with separation at release
+
+Among the 18,771 scored routes, 16,348 have the provided release-separation measurement. Player comparisons require at least 50 matched routes across five games, yielding 71 receivers. REI and separation means use exactly the same routes for each player.
+
+| Comparison | Spearman correlation | 95% bootstrap interval |
+|---|---:|---:|
+| Raw player REI vs mean release separation | **−0.56** | −0.73 to −0.35 |
+| Context-adjusted REI vs raw release separation | −0.23 | −0.45 to 0.02 |
+| Context-adjusted REI vs adjusted release separation | **−0.26** | −0.48 to −0.02 |
+| Raw route-level REI vs release separation | −0.10 | −0.12 to −0.09 |
+
+![REI and separation at release](../figures/rei-separation.png)
+
+Higher raw entropy is associated with less separation in this sample. Context adjustment substantially attenuates that relationship, and the mixed-adjustment comparison includes zero. These exploratory results do not support interpreting higher REI as a general receiver advantage. Route usage, speed, and the distinction between ambiguity and effective movement need further study.
+
+Separation adjustment uses ridge regression cross-fit across five game-grouped folds, controlling route, position, coverage category, formation, alignment, down, distance, sideline position, observed duration, mean speed, and initial cushion. REI adjustment remains the previously fitted validation model. Player intervals use 2,000 player bootstrap samples and omit shared-team/game dependence and forecast-model fitting uncertainty. The route interval approximately resamples games using fixed empirical ranks. Within-player demeaned-rank correlation is −0.09; that sensitivity analysis does not adjust play context.
+
+Separation is observed only at release. Its precise defender-selection definition remains unverified, and no cumulative separation or causal effect is claimed. Run `python src/entropy_separation.py --work .work/models --output .work/rei` to reproduce the estimates.
+
 ## Defender movement-response lag
 
 Defender response is kept as a separate feasibility analysis. The supplied coverage fields identify roles such as `MAN`, but do not identify the receiver a defender is responsible for. Tracking omits players outside the prospect cohort.

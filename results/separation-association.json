@@ -1,0 +1,50 @@
+{
+  "outcome": "Provided separation_at_pass_forward in yards",
+  "rei_routes": 18771,
+  "routes_with_separation": 16348,
+  "missing_separation": 2423,
+  "player_raw": {
+    "rho": -0.5580147551978537,
+    "ci95": [
+      -0.7255229334702824,
+      -0.3483772349302825
+    ],
+    "players": 71
+  },
+  "player_adjusted_rei_raw_separation": {
+    "rho": -0.22625754527162975,
+    "ci95": [
+      -0.4532336365194652,
+      0.02468246642237364
+    ],
+    "players": 71
+  },
+  "player_context_adjusted": {
+    "rho": -0.2594567404426559,
+    "ci95": [
+      -0.4839951858021679,
+      -0.018033867223278658
+    ],
+    "players": 71
+  },
+  "route_raw": {
+    "rho": -0.10433377295551964,
+    "ci95": [
+      -0.11949218247729455,
+      -0.0873819819685982
+    ],
+    "routes": 16348,
+    "games": 269
+  },
+  "within_player_rank_residual_correlation": -0.09426401281473454,
+  "notes": [
+    "Player primary sample requires >=50 routes with separation and >=5 games. Both player means use exactly the same matched routes.",
+    "Player intervals resample players 2000 times; they omit forecast-model fitting uncertainty and dependence between players in shared games/teams.",
+    "Separation adjustment is ridge regression cross-fit in 5 folds grouped by game, controlling recorded route, position, coverage category, formation, alignment, down, yards to go, sideline distance, observed duration, mean speed and initial cushion.",
+    "Excess REI uses the original validation-fitted entropy context adjustment. Separation residuals use the exploratory 2025 development sample with each game predicted out of fold.",
+    "Route-level interval resamples games using fixed empirical ranks; it is an approximate cluster-bootstrap interval. Routes within a player are not independent.",
+    "Within-player sensitivity demeans empirical ranks within receiver; it has no inferential interval and does not adjust play context.",
+    "Release separation is a single supplied outcome, not cumulative separation; its exact defender-selection definition remains unverified.",
+    "Associations are descriptive, not proof that entropy creates space; observed duration and speed are retrospective controls. No confirmatory holdout or causal effect is claimed."
+  ]
+}
