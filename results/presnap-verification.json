@@ -1,0 +1,9 @@
+{
+  "route_counts": true,
+  "unique_out_of_fold_routes": true,
+  "residual_equation": true,
+  "player_exclusion": true,
+  "pre_snap_feature_allowlist": true,
+  "combine_scores_recomputed": true,
+  "no_db_outcomes": true
+}

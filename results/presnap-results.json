@@ -1,0 +1,246 @@
+{
+  "db_audit": {
+    "CB": {
+      "rows": 34760,
+      "separation_available": 0
+    },
+    "FS": {
+      "rows": 10260,
+      "separation_available": 0
+    },
+    "SS": {
+      "rows": 18529,
+      "separation_available": 0
+    }
+  },
+  "population": "82 wide receivers; 30,566 nonmissing release-separation observations in regular-season 2023\u20132025",
+  "expected_separation_definition": "Pooled WR outcome regression based only on beginning-of-play information. Each evaluated player is excluded from training and from selecting the baseline model.",
+  "categorical_inputs": [
+    "offense_formation",
+    "receiver_alignment",
+    "lined_up_position",
+    "in_motion_at_ball_snap",
+    "possession_team",
+    "defense_team",
+    "season"
+  ],
+  "numeric_inputs": [
+    "down",
+    "yards_to_go",
+    "quarter",
+    "clock_seconds",
+    "score_margin",
+    "own_yardline",
+    "cushion",
+    "snap_y",
+    "snap_x"
+  ],
+  "excluded": [
+    "player identity",
+    "Combine measurements",
+    "recorded route",
+    "actual post-snap coverage",
+    "time to throw",
+    "pass result",
+    "target status",
+    "receiving yards"
+  ],
+  "baseline_evaluation": [
+    {
+      "repeat": 0,
+      "route_r2": 0.1733676920581927,
+      "route_rmse": 1.92056059005612,
+      "route_pearson": 0.4166895509468789
+    },
+    {
+      "repeat": 1,
+      "route_r2": 0.17211588595712546,
+      "route_rmse": 1.9220142351316378,
+      "route_pearson": 0.41514831019256343
+    },
+    {
+      "repeat": 2,
+      "route_r2": 0.17045963935942932,
+      "route_rmse": 1.9239358440559233,
+      "route_pearson": 0.4130274680122218
+    }
+  ],
+  "combine_to_above_expected": [
+    {
+      "model": "catboost",
+      "mean_r2": 0.041216416982440496,
+      "mean_pearson": 0.21157683595529872,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": 0.10244103706098018,
+          "pearson": 0.32713357573117485,
+          "rmse": 0.2824716163867542
+        },
+        {
+          "repeat": 1,
+          "r2": 0.0164519097141983,
+          "pearson": 0.16209107409612894,
+          "rmse": 0.2986113094864081
+        },
+        {
+          "repeat": 2,
+          "r2": 0.004756304172143011,
+          "pearson": 0.1455058580385923,
+          "rmse": 0.2985714528295665
+        }
+      ]
+    },
+    {
+      "model": "elastic_net",
+      "mean_r2": -0.06289610012629694,
+      "mean_pearson": 0.13336424250226434,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": 0.08061429340073634,
+          "pearson": 0.30745300820988297,
+          "rmse": 0.28588554357771756
+        },
+        {
+          "repeat": 1,
+          "r2": -0.19083347020764507,
+          "pearson": -0.060392045489334245,
+          "rmse": 0.32857458541588763
+        },
+        {
+          "repeat": 2,
+          "r2": -0.0784691235719821,
+          "pearson": 0.15303176478624425,
+          "rmse": 0.3108045883876236
+        }
+      ]
+    },
+    {
+      "model": "linear",
+      "mean_r2": -0.1350778511335975,
+      "mean_pearson": 0.2888955777582399,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": -0.0788500803194001,
+          "pearson": 0.3297090041675624,
+          "rmse": 0.3096876383461708
+        },
+        {
+          "repeat": 1,
+          "r2": -0.08088677424401469,
+          "pearson": 0.258546224648661,
+          "rmse": 0.31303907650203594
+        },
+        {
+          "repeat": 2,
+          "r2": -0.24549669883737768,
+          "pearson": 0.2784315044584963,
+          "rmse": 0.334006450433082
+        }
+      ]
+    },
+    {
+      "model": "neural_net",
+      "mean_r2": 0.010948067533150882,
+      "mean_pearson": 0.15198684344246113,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": 0.10454280973938124,
+          "pearson": 0.33854878976161684,
+          "rmse": 0.28214069713096135
+        },
+        {
+          "repeat": 1,
+          "r2": -0.0930839108754613,
+          "pearson": -0.05926943093461674,
+          "rmse": 0.3148003476073483
+        },
+        {
+          "repeat": 2,
+          "r2": 0.021385303735532712,
+          "pearson": 0.17668117150038332,
+          "rmse": 0.29606660963028414
+        }
+      ]
+    },
+    {
+      "model": "ridge",
+      "mean_r2": 0.07969799942940721,
+      "mean_pearson": 0.28977864332147574,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": 0.1702283012662017,
+          "pearson": 0.4177211764318585,
+          "rmse": 0.27159553763360705
+        },
+        {
+          "repeat": 1,
+          "r2": 0.012266459516151018,
+          "pearson": 0.19149631498084413,
+          "rmse": 0.29924599931778506
+        },
+        {
+          "repeat": 2,
+          "r2": 0.05659923750586893,
+          "pearson": 0.2601184385517246,
+          "rmse": 0.29069105975520193
+        }
+      ]
+    },
+    {
+      "model": "xgboost",
+      "mean_r2": 0.011918204909778981,
+      "mean_pearson": 0.21475268366780095,
+      "repeats": [
+        {
+          "repeat": 0,
+          "r2": 0.056429375921696834,
+          "pearson": 0.2646151787752676,
+          "rmse": 0.28962131886963544
+        },
+        {
+          "repeat": 1,
+          "r2": 0.03336936761071119,
+          "pearson": 0.23738668769114663,
+          "rmse": 0.29603204762057617
+        },
+        {
+          "repeat": 2,
+          "r2": -0.05404412880307108,
+          "pearson": 0.1422561845369886,
+          "rmse": 0.30726490597597156
+        }
+      ]
+    }
+  ],
+  "player_actual_expected_correlation": 0.7909713202449171,
+  "player_above_expected_sd_yards": 0.29913338944351003,
+  "old_postsnap_vs_new_presnap_adjusted_player_correlations": [
+    0.8624572571892777,
+    0.8592804967813144,
+    0.8613126171238945
+  ],
+  "selected_model_counts": {
+    "hist_gradient_boosting": 15
+  },
+  "notes": [
+    "All receivers contribute to fitting the population expectation when in a training fold; no baseline is fit separately to each player average.",
+    "WR population only. Tight ends, safeties and cornerbacks require their own outcome definitions/population baselines.",
+    "Cushion is treated as a supplied starting-condition measure; snap position and pre-snap situation are included. Actual separation is only the dependent variable.",
+    "Route-level baseline candidates are selected by player-grouped inner validation. Training-player residuals use cross-fitted baseline predictions. Outer evaluation players do not fit or select the nuisance model or Combine weights.",
+    "Nested player partitions do not exclude shared games or teams; team context is known pre-snap and can capture scheme and roster effects. Residuals are descriptive above expectation, not isolated causal player skill.",
+    "The same previously examined 2023\u20132025 data is used. Repeated validation is exploratory, not pristine confirmation.",
+    "Positive receiver residual means more separation than expected. For confirmed DB outcomes the useful sign would reverse: expected separation allowed minus actual separation allowed. Those DB outcomes are unavailable; no nearest-recorded-player substitute is used."
+  ],
+  "baseline_mean_metrics": {
+    "route_r2": 0.17198107245824915,
+    "route_rmse": 1.922170223081227,
+    "route_pearson": 0.4149551097172213
+  },
+  "raw_average_vs_above_expected_player_spearman": 0.764086154917774,
+  "raw_vs_expected_player_spearman": 0.7370947203447938
+}

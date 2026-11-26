@@ -28,6 +28,14 @@ These are mean held-out scores, not training fits. Uncertainty is substantial: t
 
 ![Official measurements and movement tracking](figures/combine-feature-comparison.png)
 
+## Separation above pre-snap expectation
+
+A pooled WR regression model estimates separation at release from starting alignment, cushion, field position, formation, motion, down/distance, score/clock, team context, and season. Receiver identity, Combine results, actual route, realized coverage, and time to throw are excluded. Evaluated players are excluded from fitting and selecting the expectation model.
+
+The selected gradient-boosting baseline achieves **0.172 route-level held-out R²**. Receiver performance is the mean of actual minus expected separation across plays. Official Combine inputs predict this new player-level outcome with **0.080 R²** and **0.290 Pearson correlation** using ridge in repeated nested evaluation. The scope and denominator differ from route-level forecasting metrics.
+
+**A defensive-back inverse cannot be estimated from this release:** CB, FS and SS rows have zero separation outcomes, and coverage roles do not identify the covered receiver. Verified matchups and separation allowed are required before assigning an inverse score to a defender. [Pre-snap model, feasibility audit, and results](docs/presnap-separation.md).
+
 ## Route Entropy Index
 
 How many future movement patterns remain plausible as a receiver runs? A calibrated model predicts eight learned patterns for the next second, and their Shannon entropy is integrated at native **10 Hz**:
