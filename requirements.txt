@@ -6,3 +6,5 @@ scipy>=1.14
 scikit-learn>=1.6
 torch>=2.5
 matplotlib>=3.9
+catboost>=1.2
+xgboost>=2.0

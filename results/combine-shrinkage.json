@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "between_variance": 0.11755298540878434,
+    "mean_reliability": 0.7846824351289952
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "between_variance": 0.050959153327778145,
+    "mean_reliability": 0.7091645360179306
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "between_variance": 0.16519273044863217,
+    "mean_reliability": 0.8235469617980317
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "between_variance": 0.056818256131561835,
+    "mean_reliability": 0.7251036482739521
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "between_variance": 0.13665809061981554,
+    "mean_reliability": 0.8006077995854548
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "between_variance": 0.02175130340172423,
+    "mean_reliability": 0.5653123772036914
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "between_variance": 0.16041918635344668,
+    "mean_reliability": 0.813082833988518
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "between_variance": 0.05599300202218343,
+    "mean_reliability": 0.7262688364948447
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "between_variance": 0.1762700374337326,
+    "mean_reliability": 0.8388349912635581
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "between_variance": 0.06667793985093892,
+    "mean_reliability": 0.7649684326116043
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "between_variance": 0.13793083566902087,
+    "mean_reliability": 0.8029516546174911
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "between_variance": 0.025078329360098732,
+    "mean_reliability": 0.6049738957359692
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "between_variance": 0.170286840717942,
+    "mean_reliability": 0.8260388159671544
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "between_variance": 0.06812994808043973,
+    "mean_reliability": 0.7535416926450174
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "between_variance": 0.11627753389287562,
+    "mean_reliability": 0.7816465654145397
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "between_variance": 0.04602103861549995,
+    "mean_reliability": 0.6985077708224893
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "between_variance": 0.16988887570594255,
+    "mean_reliability": 0.817545250813744
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "between_variance": 0.06748994647719575,
+    "mean_reliability": 0.7388783403932551
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "between_variance": 0.16155947338436577,
+    "mean_reliability": 0.8344193249718015
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "between_variance": 0.07070779386658693,
+    "mean_reliability": 0.7669465066808268
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "between_variance": 0.16086532430198952,
+    "mean_reliability": 0.8118418840502114
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "between_variance": 0.06722297298857671,
+    "mean_reliability": 0.7418889370647491
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "between_variance": 0.0709597292507862,
+    "mean_reliability": 0.7414864068305149
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "between_variance": 0.013993827880890222,
+    "mean_reliability": 0.5161949659068534
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "between_variance": 0.16701599085030916,
+    "mean_reliability": 0.8144070908944158
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "between_variance": 0.05561922305351796,
+    "mean_reliability": 0.710678655521218
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "between_variance": 0.1788087449361368,
+    "mean_reliability": 0.8378540577853598
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "between_variance": 0.07502002075619545,
+    "mean_reliability": 0.7691092656017936
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "between_variance": 0.17421372024647397,
+    "mean_reliability": 0.8251045215458893
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "between_variance": 0.05673905726165838,
+    "mean_reliability": 0.7224368804949985
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "between_variance": 0.20170237648027167,
+    "mean_reliability": 0.8998744260408593
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "between_variance": 0.05309280467049085,
+    "mean_reliability": 0.8063613768371269
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "between_variance": 0.18437883154644646,
+    "mean_reliability": 0.8641955531258736
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "between_variance": 0.07601798934554585,
+    "mean_reliability": 0.8024641888250199
+  }
+]

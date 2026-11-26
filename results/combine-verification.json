@@ -1,0 +1,10 @@
+{
+  "unique_player_predictions": true,
+  "disjoint_outer_players": true,
+  "raw_target_means_recomputed": true,
+  "paired_configuration_targets_identical": true,
+  "finite_predictions": true,
+  "training_only_feature_statistics": true,
+  "identity_outcome_exclusion_from_features": true,
+  "summary_r2_recomputed": true
+}

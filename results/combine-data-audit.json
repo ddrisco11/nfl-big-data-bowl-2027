@@ -1,0 +1,50 @@
+{
+  "players": 82,
+  "routes": 30566,
+  "draft_classes": {
+    "2023": 31,
+    "2024": 28,
+    "2025": 23
+  },
+  "official_missing_fraction": {
+    "combine_height": 0.0,
+    "combine_weight": 0.0,
+    "hand_size": 0.0,
+    "arm_length": 0.0,
+    "wing_span": 0.0,
+    "ten_yd_split": 0.0975609756097561,
+    "forty": 0.0975609756097561,
+    "vertical": 0.13414634146341464,
+    "broad_jump": 0.12195121951219512,
+    "three_cone": 0.7073170731707317,
+    "short_shuttle": 0.6341463414634146,
+    "bench_reps": 0.7073170731707317
+  },
+  "sensor_available": {
+    "forty_sensor_speed95": 72,
+    "forty_sensor_accel95": 72,
+    "forty_sensor_attempts": 72,
+    "curl_speed95": 58,
+    "slant_speed95": 60,
+    "curl_turn_rate90": 58,
+    "slant_turn_rate90": 60,
+    "curl_speed_at_turn": 58,
+    "slant_speed_at_turn": 60,
+    "curl_speed_retention": 58,
+    "slant_speed_retention": 60,
+    "curl_braking90": 58,
+    "slant_braking90": 60,
+    "curl_exit_speed": 58,
+    "slant_exit_speed": 60,
+    "curl_fractional_braking90": 58,
+    "slant_fractional_braking90": 60
+  },
+  "missing_context_fraction": {
+    "cushion": 0.05142969312307793,
+    "dropback_duration": 0.9978407380749853,
+    "snap_y": 0.0026500032716089772,
+    "route_ran": 0.0,
+    "team_coverage_type": 0.0004253091670483544,
+    "time_to_throw": 0.004678400837531898
+  }
+}

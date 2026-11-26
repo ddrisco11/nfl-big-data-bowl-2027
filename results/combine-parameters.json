@@ -1,0 +1,6530 @@
+[
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 1,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.01,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 1,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 1
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 1
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 0,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 1
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 1
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 1,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 0,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 1,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 2,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 3,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 3,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.2
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "repeated",
+    "repeat": 2,
+    "fold": 4,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 10
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2024,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 10
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 5
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "raw",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "linear|official|values|pool=False|min=1",
+    "parameters": {}
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "neural_net|official|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 10,
+      "model__hidden_layer_sizes": [
+        16
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "catboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__depth": 2,
+      "model__l2_leaf_reg": 50
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "xgboost|official|values|pool=False|min=1",
+    "parameters": {
+      "model__max_depth": 1,
+      "model__min_child_weight": 15
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "elastic_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.8
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "neural_net|sensors|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "neural_net|interactions|values|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100,
+      "model__hidden_layer_sizes": [
+        8
+      ]
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|no_flags|pool=False|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=True|min=1",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=25",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=50",
+    "parameters": {
+      "model__alpha": 100
+    }
+  },
+  {
+    "kind": "draft_class",
+    "repeat": 0,
+    "fold": 2025,
+    "outcome": "adjusted",
+    "configuration": "ridge|official|values|pool=False|min=100",
+    "parameters": {
+      "model__alpha": 100
+    }
+  }
+]

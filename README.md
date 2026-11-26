@@ -1,16 +1,32 @@
 # NFL Big Data Bowl 2027
 
-## Route Entropy and Unpredictability
+## Combine Movement, Separation, and Route Entropy
 
 **David Driscoll · Applied Mathematics, Columbia University**
 
 ![NFL Big Data Bowl artwork](assets/nfl-big-data-bowl.jpg)
 
-**Can Combine movement traits explain how long a receiver keeps a route difficult to recognize?**
+**Which Combine measurements translate into receiver separation—and can movement ambiguity explain part of that relationship?**
 
-This project measures uncertainty about both recorded route labels and a receiver’s next second of movement, then tests reliability and relationships with Combine performance. It combines hierarchical route classification, recurrent and temporal convolution models, calibrated probabilities, numerical integration, and player-level statistical inference.
+This project predicts receiver separation from official Combine results and sensor-derived movement, and studies uncertainty about recorded routes and future paths. It combines hierarchical route classification, recurrent and temporal convolution models, calibrated probabilities, numerical integration, and player-level statistical inference.
 
-[Route Entropy Index](docs/route-entropy-index.md) · [Route-label analysis](docs/writeup.md) · [Methods and limitations](docs/methodology.md) · [Reproduction notebook](analysis.ipynb) · [Source](src/) · [Results](results/)
+[Combine-to-separation study](docs/combine-separation.md) · [Route Entropy Index](docs/route-entropy-index.md) · [Route-label analysis](docs/writeup.md) · [Methods and limitations](docs/methodology.md) · [Reproduction notebook](analysis.ipynb) · [Source](src/) · [Results](results/)
+
+## Combine results and receiver separation
+
+Official body measurements and drill results are evaluated against sensor-derived speed, turning, braking, and exit-speed features. The outcome is each wide receiver’s mean separation at pass release, with a second target adjusted for route, coverage, initial cushion, time to throw, and other measured context.
+
+The sample has **82 receivers and 30,566 observed separation measurements**. Three repetitions of nested five-fold player-held-out evaluation compare linear regression, ridge, elastic net, a neural network, CatBoost, and XGBoost.
+
+| Ridge configuration | Raw-separation R² | Context-adjusted R² |
+|---|---:|---:|
+| Official Combine results | 0.100 | 0.078 |
+| Official results + sensor features | 0.073 | 0.024 |
+| Official results + shrinkage of noisy training averages | **0.167** | **0.101** |
+
+These are mean held-out scores, not training fits. Uncertainty is substantial: the all-player shrinkage model’s conditional bootstrap R² intervals include zero. Sensor features and the three tested interactions do not establish added predictive value. Class-transfer results vary sharply, and receivers with more observations produce more stable targets. [Full comparisons, uncertainty, missingness audit, and reproduction](docs/combine-separation.md).
+
+![Official measurements and movement tracking](figures/combine-feature-comparison.png)
 
 ## Route Entropy Index
 
